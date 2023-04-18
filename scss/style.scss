@@ -4,12 +4,7 @@ html,
 body {
     font-family: 'Outfit', sans-serif;
     background-color: $main-bg-color;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 50px auto;
-    border-radius: 20px;
-
 }
 
 div.card {
@@ -18,6 +13,7 @@ div.card {
     justify-content: space-around;
     align-items: center;
     width: 320px;
+    max-width: 320px;
     height: 550px;
     background-color: $card-bg-color;
     border-radius: 20px;
@@ -60,7 +56,6 @@ p,
     color: white;
     margin-left: 8px;
 }
-
 
 /* IMG */
 
