@@ -1,0 +1,84 @@
+@use "./globals/" as *;
+
+html,
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: $main-bg-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    border-radius: 20px;
+
+}
+
+div.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 320px;
+    height: 550px;
+    background-color: $card-bg-color;
+    border-radius: 20px;
+    box-shadow: 2px 4px 4px 16px hsla(215, 54%, 7%, 0.151);
+    padding: 20px;
+}
+
+
+main,
+.infos,
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+h2 {
+    color: white;
+}
+
+.infos {
+    padding-bottom: 25px;
+    border-bottom: 1px solid $primary-color;
+}
+
+main {
+    justify-content: space-between;
+}
+
+.ethereum {
+    color: $secondary-color;
+}
+
+p,
+.time {
+    color: $primary-color;
+}
+
+.author_name {
+    color: white;
+    margin-left: 8px;
+}
+
+
+/* IMG */
+
+img.top {
+    width: 310px;
+    height: 310px;
+    border-radius: 20px;
+}
+
+img.icon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+img.portrait {
+    width: 30px;
+    height: 30px;
+    margin: 10px 20px 0 0;
+}
